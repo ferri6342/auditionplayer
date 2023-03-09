@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://wavesurfer-js.org/example/playlist/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>wavesurfer.js | Playlist</title>
+
+        <link href="data:image/gif;" rel="icon" type="image/x-icon">
+
+        <!-- Bootstrap -->
+        <link href="./wavesurfer.js _ Playlist_files/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="./wavesurfer.js _ Playlist_files/style.css">
+        <link rel="stylesheet" href="./wavesurfer.js _ Playlist_files/ribbon.css">
+        <link rel="screenshot" itemprop="screenshot" href="https://katspaugh.github.io/wavesurfer.js/example/screenshot.png">
+
+        <!-- wavesurfer.js -->
+        <script async="" src="./wavesurfer.js _ Playlist_files/analytics.js"></script><script src="./wavesurfer.js _ Playlist_files/wavesurfer.min.js"></script>
+
+        <!-- App -->
+        <script src="./wavesurfer.js _ Playlist_files/app.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li><a href="https://wavesurfer-js.org/"><i class="glyphicon glyphicon-home"></i></a></li>
+                </ul>
+
+                <h1 itemprop="name">wavesurfer.js Playlist Demo</h1>
+            </div>
+
+            <div id="demo">
+                <div class="row" style="margin: 30px 0">
+                    <div class="col-sm-10">
+                        <div id="waveform">
+                            <!-- Here be waveform -->
+                        <wave style="display: block; position: relative; user-select: none; height: 120px; cursor: auto; overflow: auto hidden;"><wave style="position: absolute; z-index: 3; left: 0px; top: 0px; bottom: 0px; overflow: hidden; width: 0px; display: block; box-sizing: border-box; border-right: 1px solid rgb(51, 51, 51); pointer-events: none;"><canvas width="695" height="120" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 695px;"></canvas></wave><canvas width="695" height="120" style="position: absolute; z-index: 2; left: 0px; top: 0px; bottom: 0px; height: 100%; pointer-events: none; width: 695px;"></canvas></wave></div>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <button class="btn btn-success btn-block" id="playPause">
+                            <span id="play" style="display: none;">
+                                <i class="glyphicon glyphicon-play"></i>
+                                Play
+                            </span>
+
+                            <span id="pause" style="">
+                                <i class="glyphicon glyphicon-pause"></i>
+                                Pause
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="list-group" id="playlist">
+                    <a href="https://wavesurfer-js.org/example/media/demo.wav" class="list-group-item">
+                        <i class="glyphicon glyphicon-play"></i>
+                        czskamaarù – Trou
+                        <span class="badge">0:21</span>
+                    </a>
+
+                    <a href="https://wavesurfer-js.org/example/panner/media.wav" class="list-group-item active">
+                        <i class="glyphicon glyphicon-play"></i>
+                        日本人の話し
+                        <span class="badge">1:04</span>
+                    </a>
+
+                    <a href="https://wavesurfer-js.org/example/elan/transcripts/001z.mp3" class="list-group-item">
+                        <i class="glyphicon glyphicon-play"></i>
+                        Рассказы о сновидениях
+                        <span class="badge badge-info">1:26</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="footer row">
+                <div class="col-sm-12">
+                    <a rel="license" href="https://opensource.org/licenses/BSD-3-Clause"><img alt="BSD-3-Clause License" style="border-width:0" src="./wavesurfer.js _ Playlist_files/License-BSD 3--Clause-blue.svg"></a>
+                </div>
+
+                <div class="col-sm-7">
+                    <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">wavesurfer.js</span> by <a href="https://github.com/katspaugh/wavesurfer.js">katspaugh</a> is licensed under a&nbsp;<a style="white-space: nowrap" rel="license" href="https://opensource.org/licenses/BSD-3-Clause">BSD-3-Clause License</a>.
+                </div>
+
+                <div class="col-sm-5">
+                    <p>
+                        Audio sources:<br>
+                        <a rel="nofollow" href="http://www.jamendo.com/en/track/661578/trou"><b>Trou</b> <span class="muted">by</span>&nbsp;<b>czskamaarù</b></a>,
+                        <a rel="nofollow" href="http://spokencorpora.ru/">spokencorpora.ru</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="github-fork-ribbon-wrapper right">
+            <div class="github-fork-ribbon">
+                <a itemprop="isBasedOnUrl" href="https://github.com/katspaugh/wavesurfer.js">Fork me on GitHub</a>
+            </div>
+        </div>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-50026819-1', 'wavesurfer.fm');
+            ga('send', 'pageview');
+        </script>
+    
+
+</body></html>
